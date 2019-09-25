@@ -67,7 +67,7 @@ end
 
 def runner
   # code runner here
-  welcome
+ greeting = welcome
 
 end
     
