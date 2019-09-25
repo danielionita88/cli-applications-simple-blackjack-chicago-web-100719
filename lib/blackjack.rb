@@ -30,11 +30,8 @@ end
 
 def initial_round
   # code #initial_round here
-  num1 = deal_card
-  num2 = deal_card
-  total = num1 + num2
-  display_card_total(num1 + num2)
-end
+  sum = deal_card + deal_card
+  p sum
 
 def hit?
   # code hit? here
